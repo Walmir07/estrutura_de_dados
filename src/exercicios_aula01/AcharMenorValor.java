@@ -1,11 +1,17 @@
 package exercicios_aula01;
 
-import java.util.List;
-
 public class AcharMenorValor {
 
-    public static void acharMenorValor(List<Integer> vetor){
+    public static int acharMenorValor(int[] lista, int posicao){
+        if(posicao == lista.length - 1) {
+            return lista[posicao];
+        }
 
+        if(lista[posicao] < acharMenorValor(lista, posicao + 1)){
+            return lista[posicao];
+        } else {
+            return acharMenorValor(lista, posicao + 1);
+        }
     }
 
 }
