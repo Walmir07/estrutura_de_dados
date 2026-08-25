@@ -1,6 +1,6 @@
 package atividades;
 
-public class algoritmosOrdenacao {
+public class AlgoritmosOrdenacao {
     public static void bubbleSort(int[] lista) {
         for (int i = 0; i < lista.length; i++) {
             for (int j = 0; j < lista.length - 1 - i; j++) {
