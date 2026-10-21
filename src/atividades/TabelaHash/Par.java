@@ -15,5 +15,5 @@ public class Par {
     public String getNome() {
         return nome;
     }
-    
+
 }
