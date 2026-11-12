@@ -1,8 +1,8 @@
 package atividades.ListaEncadeadaCircular;
 
 public class ListaEncadeadaCircular {
-    private Nodo primeiro;
-    private int tamanho;
+    public Nodo primeiro;
+    public int tamanho;
 
     public int size(){
         return tamanho;
